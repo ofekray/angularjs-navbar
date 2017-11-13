@@ -43,7 +43,7 @@ angular.module('navbar', ['services.navigation', 'navbarItem']);
 angular.
   module('navbar').
   component('navbar', {
-    templateUrl: 'navbar.template.html',
+    templateUrl: 'navbar/navbar.template.html',
     controller: ['Navigation', '$timeout',
       function NavbarController(Navigation, $timeout) {
 	     var self = this;
@@ -79,7 +79,7 @@ angular.
       bindToController: {
         item: '=navbarItem'
       },
-      templateUrl: 'navbar-item.template.html',
+      templateUrl: 'navbar/navbar-item.template.html',
       controller: ['Navigation', '$location',
         function NavbarItemController(Navigation, $location) {
           this.isActive = Navigation.isActiveNavigationItem;
