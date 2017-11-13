@@ -1,5 +1,5 @@
 # angularjs-navbar
-This is an easy to use AngularJS navigation-bar directive.
+This is an easy to use AngularJS multi-level navigation-bar directive.
 
 [Usage example](https://ofekray.github.io/angularjs-navbar)
 
