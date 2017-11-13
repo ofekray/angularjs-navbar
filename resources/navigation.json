@@ -1,0 +1,64 @@
+{
+    "left" : [
+        {
+            "title": "Home",
+            "route": "#!/",
+            "active": true
+        },
+        {
+            "title": "Page2",
+            "route": "#!/Page2"
+        },
+        {
+            "title": "Page3",
+			"childs": [
+				{
+					"title": "Page4",
+					"route": "#!/Page4"
+				}
+			]
+        },
+        {
+            "title": "Page5",
+            "route": "#!/Page5"
+        }
+    ],
+    "right": [
+        {
+            "title": "Page6",
+            "icon": "glyphicon glyphicon-user",
+            "childs": [
+                {
+                    "title": "Page7",
+                    "route": "#!/Page7"
+                },
+                {
+                    "title": "Page8",
+                    "route": "#!/Page8"
+                },
+                {
+                    "title": "Page9",
+                    "childs": [
+                        {
+                            "title": "Page10",
+                            "childs": [
+                                {
+                                    "title": "Page11",
+                                    "route": "#!/Page11"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Page12",
+                            "route": "#!/Page12"
+                        }
+                    ]
+                },
+                {
+                    "title": "Page13",
+                    "route": "#!/Page13"
+                }
+            ]
+        }
+    ]
+}

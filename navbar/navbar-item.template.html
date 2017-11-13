@@ -1,0 +1,8 @@
+<a ng-attr-data-toggle="{{ $ctrl.item.childs ? 'dropdown' : undefined }}" ng-attr-data-submenu="{{ $ctrl.item.childs&&$ctrl.item.rootElement ? '' : undefined }}" ng-attr-href="{{$ctrl.item.route}}">
+    <span ng-if="$ctrl.item.icon" ng-class="$ctrl.item.icon"></span>
+    {{$ctrl.item.title}}
+    <span ng-if="$ctrl.item.childs&&$ctrl.item.rootElement" class="caret"></span>
+</a>
+<ul ng-if="$ctrl.item.childs" class="dropdown-menu">
+    <li ng-repeat="child in $ctrl.item.childs" navbar-item="child" ng-class="{'dropdown-submenu': child.childs, 'active': $ctrl.isActive(child)}"></li>
+</ul>
