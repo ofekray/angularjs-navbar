@@ -1,6 +1,7 @@
 'use strict';
 
 // Register `navigation` service
+angular.module('services.navigation', ['ngResource']);
 angular.
   module('services.navigation').
   factory('Navigation', ['$resource', '$location',
