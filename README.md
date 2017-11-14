@@ -13,6 +13,6 @@ This is an easy to use AngularJS multi-level navigation-bar directive.
 
 ## Usage
 1. Include above depecendies in your application
-2. Include navbar.js in your applicaiton
+2. Include navbar.js and navbar.cs in your applicaiton
 3. Create resources/navigation.js file with your navigation information
 2. Put the <navbar></navbar> diretive anywhere you want in your appliaction
